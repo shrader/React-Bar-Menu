@@ -1,0 +1,160 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div>
+  <section
+    class="col-md-8"
+  >
+    <div
+      class="card"
+    >
+      <div
+        class="text-center card-body"
+      >
+        <h5
+          class="card-title"
+        >
+          <h2>
+            New Item
+          </h2>
+        </h5>
+        <form
+          id="newItemForm"
+        >
+          <div
+            class="input-group mb-3"
+          >
+            <div
+              class="input-group-prepend"
+            >
+              <label
+                class="input-group-text"
+                for="inputGroupSelect01"
+              >
+                Item type
+              </label>
+            </div>
+            <select
+              class="custom-select"
+              id="inputGroupSelect01"
+            >
+              <option>
+                Choose...
+              </option>
+              <option
+                value="food"
+              >
+                Food
+              </option>
+              <option
+                value="drink"
+              >
+                Drink
+              </option>
+            </select>
+          </div>
+          <p />
+          <div
+            class="input-group mb-3"
+          >
+            <div
+              class="input-group-prepend"
+            >
+              <span
+                class="input-group-text"
+              >
+                Item Name
+              </span>
+            </div>
+            <input
+              aria-describedby="basic-addon1"
+              aria-label="Username"
+              class="form-control"
+              name="name"
+              placeholder="Rum & Coke"
+              type="text"
+              value=""
+            />
+          </div>
+          <p />
+          <div
+            class="input-group mb-3"
+          >
+            <div
+              class="input-group-prepend"
+            >
+              <span
+                class="input-group-text"
+              >
+                Description
+              </span>
+            </div>
+            <input
+              aria-describedby="basic-addon1"
+              aria-label="Description"
+              class="form-control"
+              name="description"
+              placeholder="Something to drink"
+              type="text"
+              value=""
+            />
+          </div>
+          <p />
+          <div
+            class="input-group mb-3"
+          >
+            <div
+              class="input-group-prepend"
+            >
+              <span
+                class="input-group-text"
+              >
+                Recipe
+              </span>
+            </div>
+            <input
+              aria-describedby="basic-addon1"
+              aria-label="Description"
+              class="form-control"
+              name="recipe"
+              placeholder="Some Rum and some Coke"
+              type="text"
+              value=""
+            />
+          </div>
+          <p />
+          <div
+            class="input-group mb-3"
+          >
+            <div
+              class="input-group-prepend"
+            >
+              <span
+                class="input-group-text"
+              >
+                Serve
+              </span>
+            </div>
+            <input
+              aria-describedby="basic-addon1"
+              aria-label="Description"
+              class="form-control"
+              name="serve"
+              placeholder="cold and fizzy"
+              type="text"
+              value=""
+            />
+          </div>
+          <p />
+          <button
+            class="btn btn-lg btn-block btn-outline-primary"
+            type="button"
+          >
+            Add Item!
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+</div>
+`;
