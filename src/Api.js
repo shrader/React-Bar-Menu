@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BASE_API_URL = process.env.REACT_APP_BASE_URL || "http://localhost:5000";
+const BASE_API_URL = process.env.REACT_APP_BASE_URL || "https://shrader.github.io/React-Bar-Menu/";
 
 /* 
   json-server will give you CRUD endpoints on snacks and drinks.
