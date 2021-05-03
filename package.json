@@ -20,7 +20,7 @@
   },
   "scripts": {
     "start": "concurrently --kill-others \"npm run start-fe\" \"npm run start-be\"",
-    "predeploy": "react-scripts start",
+    "predeploy": "npm run build",
     "deploy" : "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
